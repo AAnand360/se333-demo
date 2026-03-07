@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>StringUtils.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">se333-demo</a> &gt; <a href="index.source.html" class="el_package">com.se333</a> &gt; <span class="el_source">StringUtils.java</span></div><h1>StringUtils.java</h1><pre class="source lang-java linenums">package com.se333;
 
-<span class="nc" id="L3">public class StringUtils {</span>
+<span class="fc" id="L3">public class StringUtils {</span>
 
     public String reverse(String s) {
-<span class="nc bnc" id="L6" title="All 2 branches missed.">        if (s == null) return null;</span>
-<span class="nc" id="L7">        return new StringBuilder(s).reverse().toString();</span>
+<span class="fc bfc" id="L6" title="All 2 branches covered.">        if (s == null) return null;</span>
+<span class="fc" id="L7">        return new StringBuilder(s).reverse().toString();</span>
     }
 
     public boolean isPalindrome(String s) {
-<span class="nc bnc" id="L11" title="All 2 branches missed.">        if (s == null) return false;</span>
-<span class="nc" id="L12">        String cleaned = s.toLowerCase().replaceAll(&quot;[^a-z0-9]&quot;, &quot;&quot;);</span>
-<span class="nc" id="L13">        return cleaned.equals(new StringBuilder(cleaned).reverse().toString());</span>
+<span class="fc bfc" id="L11" title="All 2 branches covered.">        if (s == null) return false;</span>
+<span class="fc" id="L12">        String cleaned = s.toLowerCase().replaceAll(&quot;[^a-z0-9]&quot;, &quot;&quot;);</span>
+<span class="fc" id="L13">        return cleaned.equals(new StringBuilder(cleaned).reverse().toString());</span>
     }
 
     public int countVowels(String s) {
-<span class="nc bnc" id="L17" title="All 2 branches missed.">        if (s == null) return 0;</span>
-<span class="nc" id="L18">        int count = 0;</span>
-<span class="nc bnc" id="L19" title="All 2 branches missed.">        for (char c : s.toLowerCase().toCharArray()) {</span>
-<span class="nc bnc" id="L20" title="All 2 branches missed.">            if (&quot;aeiou&quot;.indexOf(c) &gt;= 0) count++;</span>
+<span class="fc bfc" id="L17" title="All 2 branches covered.">        if (s == null) return 0;</span>
+<span class="fc" id="L18">        int count = 0;</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        for (char c : s.toLowerCase().toCharArray()) {</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">            if (&quot;aeiou&quot;.indexOf(c) &gt;= 0) count++;</span>
         }
-<span class="nc" id="L22">        return count;</span>
+<span class="fc" id="L22">        return count;</span>
     }
 
     public String capitalize(String s) {
-<span class="nc bnc" id="L26" title="All 4 branches missed.">        if (s == null || s.isEmpty()) return s;</span>
-<span class="nc" id="L27">        return Character.toUpperCase(s.charAt(0)) + s.substring(1).toLowerCase();</span>
+<span class="fc bfc" id="L26" title="All 4 branches covered.">        if (s == null || s.isEmpty()) return s;</span>
+<span class="fc" id="L27">        return Character.toUpperCase(s.charAt(0)) + s.substring(1).toLowerCase();</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
