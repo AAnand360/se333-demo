@@ -96,7 +96,7 @@ public class CalculatorTest {
 
     @Test
     public void testDivideByZero() {
-        assertEquals(-1, calculator.divide(5, 0));
+        assertThrows(ArithmeticException.class, () -> calculator.divide(5, 0));
     }
 
     // Tests for isEven()

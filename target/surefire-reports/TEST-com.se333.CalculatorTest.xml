@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.se333.CalculatorTest" time="0.099" tests="25" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.se333.CalculatorTest" time="0.129" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.6_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\Avian\AppData\Local\Temp\surefire5305535928375931760\surefirebooter-20260307140456364_3.jar C:\Users\Avian\AppData\Local\Temp\surefire5305535928375931760 2026-03-07T14-04-56_267-jvmRun1 surefire-20260307140456364_1tmp surefire_0-20260307140456364_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Avian\AppData\Local\Temp\surefire7718918894839875491\surefirebooter-20260307141020837_3.jar C:\Users\Avian\AppData\Local\Temp\surefire7718918894839875491 2026-03-07T14-10-20_742-jvmRun1 surefire-20260307141020837_1tmp surefire_0-20260307141020837_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Avian\se333-demo\target\test-classes;C:\Users\Avian\se333-demo\target\classes;C:\Users\Avian\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Avian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Avian\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Avian\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Avian\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Avian\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Avian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Avian\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Avian\AppData\Local\Temp\surefire5305535928375931760\surefirebooter-20260307140456364_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Avian\AppData\Local\Temp\surefire7718918894839875491\surefirebooter-20260307141020837_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -59,29 +59,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testMultiplyPositiveNumbers" classname="com.se333.CalculatorTest" time="0.046"/>
-  <testcase name="testFactorialZero" classname="com.se333.CalculatorTest" time="0.004"/>
-  <testcase name="testMultiplyNegativeNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
+  <testcase name="testMultiplyPositiveNumbers" classname="com.se333.CalculatorTest" time="0.059"/>
+  <testcase name="testFactorialZero" classname="com.se333.CalculatorTest" time="0.002"/>
+  <testcase name="testMultiplyNegativeNumbers" classname="com.se333.CalculatorTest" time="0.002"/>
   <testcase name="testAddZero" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testDivideByZero" classname="com.se333.CalculatorTest" time="0.004"/>
   <testcase name="testFactorialOne" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testIsEvenWithNegativeOdd" classname="com.se333.CalculatorTest" time="0.004"/>
   <testcase name="testIsEvenWithOddPositive" classname="com.se333.CalculatorTest" time="0.0"/>
-  <testcase name="testAddPositiveNumbers" classname="com.se333.CalculatorTest" time="0.002"/>
-  <testcase name="testMultiplyByZero" classname="com.se333.CalculatorTest" time="0.001"/>
+  <testcase name="testAddPositiveNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
+  <testcase name="testMultiplyByZero" classname="com.se333.CalculatorTest" time="0.004"/>
   <testcase name="testAddNegativeNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
-  <testcase name="testIsEvenWithEvenPositive" classname="com.se333.CalculatorTest" time="0.001"/>
-  <testcase name="testDivideWithRemainder" classname="com.se333.CalculatorTest" time="0.001"/>
-  <testcase name="testIsEvenWithZero" classname="com.se333.CalculatorTest" time="0.001"/>
-  <testcase name="testDividePositiveNumbers" classname="com.se333.CalculatorTest" time="0.001"/>
+  <testcase name="testIsEvenWithEvenPositive" classname="com.se333.CalculatorTest" time="0.0"/>
+  <testcase name="testDivideWithRemainder" classname="com.se333.CalculatorTest" time="0.005"/>
+  <testcase name="testIsEvenWithZero" classname="com.se333.CalculatorTest" time="0.0"/>
+  <testcase name="testDividePositiveNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testIsEvenWithNegativeEven" classname="com.se333.CalculatorTest" time="0.0"/>
-  <testcase name="testDivideNegativeNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
+  <testcase name="testDivideNegativeNumbers" classname="com.se333.CalculatorTest" time="0.004"/>
   <testcase name="testSubtractPositiveNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testAddMixedNumbers" classname="com.se333.CalculatorTest" time="0.001"/>
-  <testcase name="testSubtractMixedNumbers" classname="com.se333.CalculatorTest" time="0.001"/>
+  <testcase name="testSubtractMixedNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testSubtractNegativeNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testFactorialPositive" classname="com.se333.CalculatorTest" time="0.0"/>
-  <testcase name="testFactorialNegative" classname="com.se333.CalculatorTest" time="0.004"/>
+  <testcase name="testFactorialNegative" classname="com.se333.CalculatorTest" time="0.0"/>
   <testcase name="testSubtractZero" classname="com.se333.CalculatorTest" time="0.0"/>
-  <testcase name="testMultiplyMixedNumbers" classname="com.se333.CalculatorTest" time="0.001"/>
+  <testcase name="testMultiplyMixedNumbers" classname="com.se333.CalculatorTest" time="0.0"/>
 </testsuite>
